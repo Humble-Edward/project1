@@ -15,7 +15,7 @@ body {
 }
 
 .div0 {
-  width: 368px;
+  width: 350px;
 
 }
 
@@ -24,8 +24,9 @@ body {
 }
 
 .div0 p {
-  font-size: 13px;
+  font-size: 12px;
 }
+
 
 .title {
   background-color: hsl(248, 32%, 49%);
@@ -49,7 +50,7 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 370px;
   padding: 32px;
   border-radius: 8px;
   background-color: white;
@@ -97,7 +98,7 @@ button {
   cursor: pointer;
 }
 
-@media (max-width:800px) and (min-width: 375px) {
+@media (max-width: 800px) and (min-width: 375px) {
   body {
     flex-direction: column;
   }
